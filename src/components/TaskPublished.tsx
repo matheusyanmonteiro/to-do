@@ -14,6 +14,7 @@ export function TaskPublished({ content, onDeleteTask }: Props) {
 
   return (
     <div className={styles.content}>
+      <input type="checkbox" />
       <h1>{content}</h1>
       <button onClick={handleDeleteTask}>
         <Trash />

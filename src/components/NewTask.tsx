@@ -42,6 +42,10 @@ export function Task() {
           Criar {''} <PlusCircle color="white" size="16" />
         </button>
       </form>
+      <div className={styles.contage}>
+        <p>tarefas criadas </p>
+        <p>{tasks.length}</p>
+      </div>
 
       <div className={styles.taskList}>
         {tasks.map((task) => {
